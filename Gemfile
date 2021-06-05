@@ -29,14 +29,30 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.5'
+  gem 'pry'
+  gem 'shoulda-matchers'
+  gem 'awesome_print'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'simplecov'
+  gem 'database_cleaner'
+  gem 'factory_bot_rails', '~> 4.0'
+  # the following are for API apps
+  gem 'fast_jsonapi'
+  gem 'faraday'
 end
 
-group :test do
-  gem 'factory_bot_rails', '~> 4.0'
-  gem 'shoulda-matchers', '~> 3.1'
-  gem 'faker'
-  gem 'database_cleaner'
-end
+# group :test do
+#   gem 'factory_bot_rails', '~> 4.0'
+#   gem 'shoulda-matchers', '~> 3.1'
+#   gem 'faker'
+#   gem 'pry'
+#   gem 'shoulda-matchers'
+#   gem 'awesome_print'
+#   gem 'capybara'
+#   gem 'launchy'
+#   gem 'simplecov'
+# end
 
 group :development do
   gem 'listen', '~> 3.3'
