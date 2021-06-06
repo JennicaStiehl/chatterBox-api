@@ -11,13 +11,13 @@
 
 ## Requests
 Create a message
-![](CreateMessage.png]
+![](/public/CreateMessage.png?raw=true]
 
 Create a chat room
-![](CreateChatRoom.png]
+![](/public/CreateChatRoom.png?raw=true]
 
 Create a user
-![](CreateUserAccount.png]
+![](/public/CreateUserAccount.png?raw=true]
 
 List of Chat rooms
-![](ListOfChatRooms.png]
+![](/public/ListOfChatRooms.png?raw=true]
