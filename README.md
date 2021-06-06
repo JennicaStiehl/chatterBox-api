@@ -20,13 +20,10 @@ bundle install
  ```
 ## Requests
 Create a message
-![CreateMessage](/CreateMessage.png?raw=true]
-
+![Create Message](/CreateMessage.png?raw=true "Create message")
 Create a chat room
-![CreateChatRoom](/CreateChatRoom.png?raw=true]
-
+![CreateChatRoom](/CreateChatRoom.png?raw=true "Create chat room")
 Create a user
-![CreateUserAccount](/CreateUserAccount.png?raw=true]
-
+![CreateUserAccount](/CreateUserAccount.png?raw=true "Create user account")
 List of Chat rooms
-![ListOfChatRooms](/ListOfChatRooms.png?raw=true]
+![ListOfChatRoom](/ListOfChatRooms.png?raw=true "View List of chat rooms")
