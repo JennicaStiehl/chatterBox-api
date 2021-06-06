@@ -7,8 +7,17 @@
 ```rails db:create, migrate, seed```
 
 * How to run the test suite
-```bundle exec RSpec```
+```bundle exec rspec```
 
 ## Requests
 Create a message
-<![CreateMessage.png]()
+![](CreateMessage.png]
+
+Create a chat room
+![](CreateChatRoom.png]
+
+Create a user
+![](CreateUserAccount.png]
+
+List of Chat rooms
+![](ListOfChatRooms.png]
