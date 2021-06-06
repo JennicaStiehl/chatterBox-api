@@ -1,6 +1,5 @@
 class User < ApplicationRecord
-  validates_uniqueness_of :email
-
+  has_and_belongs_to_many :rooms
   has_many :messages
-  has_many :rooms, through: :messages
+  validates :email, presence: true, uniqueness: true
 end
